@@ -44,7 +44,7 @@ mode = 1
 
 #messages= ["Hello {}, How are you?", "Hi {}, What's up?", "Hey {}, do you want to gotrained?"]
 
-messages= ["Hello , How are you?", "Hi , What's up?", "Hey , do you want to gotrained?"]
+messages= ["Hello , How are you? Join: https://t.me/healthandlifetg", "Hi , What's up?  Join: https://t.me/healthandlifetg", "Hey , do you want to gotrained?  Join: https://t.me/healthandlifetg"]
 for user in users:
     if mode == 2:
         if user['username'] == "":
