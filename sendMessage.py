@@ -40,7 +40,7 @@ with open(input_file, encoding='UTF-8') as f:
 
 print(sys.argv)
 
-mode = int(input("Enter 1 to send by user ID or 2 to send by username: "))
+mode = 1
 
 #messages= ["Hello {}, How are you?", "Hi {}, What's up?", "Hey {}, do you want to gotrained?"]
 
